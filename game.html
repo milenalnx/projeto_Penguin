@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Penguin Game</title>
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/font-awesome.min.css"> 
+	<link rel="stylesheet" href="stylegame.css">
+	<script type="text/javascript" src="js.js"></script>	
+</head>
+
+<body>
+
+	<div id="fb-root"></div>
+
+	<div id="wrapper">
+		<div id="content-left">
+			<div>
+				<img id="size1" src="images/pinguinsPeixe.jpg">
+			</div>
+			
+			<div id="box">
+				<h3>Game Description</h3>
+				<p>Help Kowalski to collect as much fish as possible in 60 seconds to feed it's hungry friends: Skipper, Rico, Private.</p>
+				<h4>Start the Game and Hurry up!</h4>
+				<br>
+				<img src="images/fishBucket2.png">
+			</div>
+
+			<div id="box">
+				<h3>Instructions</h3>
+				<p>Use the Arrow Buttons on your keyboard to move the penguin to any direction: Up, Right, Left or Down.</p>
+				<br>
+				<img src="images/arrowsKey2.png">
+			</div>
+			
+			<div class="fb-share-button" data-href="http://www.penguingame.pe.hu/" data-layout="button_count"></div>
+
+		</div>
+
+		<div id="section">
+			<div id="pinguim"></div>
+			<img id="cais1" src="images/Cargo_Boat.png">
+			<img id="cais2" src="images/Cargo_Boat.png">
+			<img id="imagemJogo" class="jogo" src="images/screen.png">
+			<img id="familiaPinguim1" src="images/pinguim.png">
+			<img id="familiaPinguim2" src="images/pinguim.png">
+			<img id="familiaPinguim3" src="images/pinguim.png">
+			<img id="grass1" src="images/grass1.png">
+			<img id="grass2" src="images/grass2.png">
+			<img id="fish" src="images/fish.png">
+
+			<div id="lightBox"></div>
+
+			<img id="imgStartGame" src="images/startgame.png" onclick="inicializarGame();" />
+
+			<div id="divGameOver">
+				<img id="imgGameOver" src="images/gameover.png">
+				<img id="imgStartGame2" src="images/startgame.png" onclick="inicializarGame();" />
+			</div>
+
+		</div>
+
+		<div id="aside">
+
+			<div id="box2">
+				<img id="clock" src="images/clock2.png">
+				<label id="contadorTempo"></label>
+			</div>
+
+			<div id="placar">
+				<div id="score">Score<div id="totalScore"></div></div>
+				<div id="best">Best<div id="bestScore"></div></div>
+			</div>
+
+			<div id="margem">
+				<img id="size2" src="images/pinguins.jpg">
+			</div>
+
+		</div>
+	</div>	
+</body>
+</html>
+
